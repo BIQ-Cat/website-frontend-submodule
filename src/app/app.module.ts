@@ -11,6 +11,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { IndexPageComponent } from './pages/index/index.component';
+import { MatCardModule } from '@angular/material/card';
 import { NotFoundPageComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
@@ -26,6 +27,7 @@ import { NotFoundPageComponent } from './pages/not-found/not-found.component';
     BrowserAnimationsModule,
     LayoutModule,
     MatToolbarModule,
+    MatCardModule,
     MatButtonModule,
     MatIconModule,
   ],
