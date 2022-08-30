@@ -10,9 +10,16 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { IndexPageComponent } from './pages/index/index.component';
+import { NotFoundPageComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent],
+  declarations: [
+    AppComponent,
+    NavbarComponent,
+    IndexPageComponent,
+    NotFoundPageComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
