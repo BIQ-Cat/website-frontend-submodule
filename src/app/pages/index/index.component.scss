@@ -1,0 +1,24 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background: url("/assets/test_block.jpg");
+  height: 90vh;
+  > * {
+    margin-left: 5vw;
+    margin-bottom: 5px;
+  }
+  > div {
+    color: white;
+    background-color: rgba($color: #000000, $alpha: 0.75);
+  }
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+  > * {
+    margin: 20px;
+  }
+}
