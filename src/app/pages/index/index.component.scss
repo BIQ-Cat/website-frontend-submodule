@@ -17,6 +17,9 @@
 .card-container {
   display: flex;
   flex-direction: row;
+  @media screen and (orientation: portrait) {
+    flex-direction: column;
+  }
   height: 5vh;
   > * {
     margin: 20px;
