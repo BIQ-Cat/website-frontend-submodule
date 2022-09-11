@@ -2,12 +2,14 @@
   <button mat-icon-button *ngIf="currentScreenSize != 2">
     <mat-icon>menu</mat-icon>
   </button>
+  <span class="spacer" *ngIf="currentScreenSize == 0"></span>
   <a routerLink="">BIQ-Cat</a>
   <span class="spacer"></span>
-
-  <button mat-button class="nav"><a routerLink="about">About</a></button>
-  <button mat-button class="nav"><a routerLink="shop">Shop</a></button>
-  <button mat-button class="nav"><a routerLink="help">Help</a></button>
+  <div *ngIf="currentScreenSize == 2">
+    <button mat-button class="nav"><a routerLink="about">About</a></button>
+    <button mat-button class="nav"><a routerLink="shop">Shop</a></button>
+    <button mat-button class="nav"><a routerLink="help">Help</a></button>
+  </div>
   <button mat-icon-button class="nav last">
     <mat-icon>account_circle</mat-icon>
   </button>
