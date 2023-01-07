@@ -13,6 +13,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { IndexPageComponent } from './pages/index/index.component';
 import { MatCardModule } from '@angular/material/card';
 import { NotFoundPageComponent } from './pages/not-found/not-found.component';
+import { AboutPageComponent } from './pages/about/about.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { NotFoundPageComponent } from './pages/not-found/not-found.component';
     NavbarComponent,
     IndexPageComponent,
     NotFoundPageComponent,
+    AboutPageComponent,
   ],
   imports: [
     BrowserModule,
